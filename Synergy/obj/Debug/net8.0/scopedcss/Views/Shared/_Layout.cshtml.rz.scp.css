@@ -1,0 +1,82 @@
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/* General header styling */
+/* Header.module.css */
+
+/* General header styling */
+.landing-header[b-9zzlldw344] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000000 !important;
+    border-bottom: 2px solid #7e7e7e;
+    position: relative;
+    width: 100%;
+}
+
+/* Styling for the Synergy logo */
+.logo-container[b-9zzlldw344] {
+    flex: 1;
+}
+
+.logo[b-9zzlldw344] {
+    font-size: 1.8em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Centered navigation buttons */
+.navigation[b-9zzlldw344] {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 2; /* Ensures buttons take up space in the center */
+}
+
+.btn[b-9zzlldw344] {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #9a9a9a;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    .btn:hover[b-9zzlldw344] {
+        background-color: #ff7962;
+        color: white;
+    }
+
+/* Styling for the back button container (aligned to the right) */
+.back-container[b-9zzlldw344] {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.back-btn[b-9zzlldw344] {
+    padding: 8px 16px;
+    font-size: 1em;
+    background-color: transparent;
+    color: #dcdcdc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .back-btn:hover[b-9zzlldw344] {
+        background-color: #ccc;
+    }
+
+
+
+.footer[b-9zzlldw344] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+  height:auto;
+}
+

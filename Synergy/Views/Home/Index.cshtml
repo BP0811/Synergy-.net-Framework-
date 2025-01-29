@@ -1,0 +1,74 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Content Section with Background Slider -->
+<section class="content-section py-8 position-relative">
+    <!-- Content on Top -->
+    <div class="container-xl position-relative">
+        <div class="row content">
+            <div class="col">
+                <h1 class="main-heading">DATING FOR EVERY<br />SINGLE PERSON</h1>
+                <p class="description">
+                    Synergy provides a safe and secure matchmaking platform for people to connect, communicate, and meet new friends.<br />
+                    Synergy is the only dating app that matches you on what matters to you. You deserve to find who you’re looking for.<br />
+                    Meet them today!
+                </p>
+                <a class="nav-link text-dark" asp-controller="Account" asp-action="Register">
+                <button class="join-btn">Join Now</button></a>
+            </div>
+        </div>
+        <div class="row">
+            <p class="terms">
+                By joining, you agree to our <a href="/terms" class="terms-link">terms and conditions</a>.
+            </p>
+        </div>
+        <div class="row link">
+            <div class="col app-links">
+                <a href="https://play.google.com/store" target="_blank">
+                    <img src="~/images/googleplay.png" alt="Get it on Google Play" />
+                </a>
+                <a href="https://www.apple.com/app-store/" target="_blank">
+                    <img src="~/images/appstore.png" alt="Download on the App Store" />
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-1" style="color: white;">What our users say</h2>
+        <div id="testimonialCarousel" class="carousel slide testimonial-carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="testimonial-item text-center">
+                        <p class="fst-italic">"Synergy helped me find my soulmate. Highly recommend!"</p>
+                        <h5 class="text-dark">- Vipul Tembuwalkar</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimonial-item text-center">
+                        <p class="fst-italic">"A safe and easy platform to meet like-minded people."</p>
+                        <h5 class="text-dark">- Manoj More</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="testimonial-item text-center">
+                        <p class="fst-italic">"The AI matchmaking feature is amazing! Best experience ever!"</p>
+                        <h5 class="text-dark">- Madhuri Dixit</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,20 @@
+﻿@model Synergy.Models.Profile
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card blurred-card mt-5">
+            <div class="card-header">
+                <h2 class="text-center text-danger">Delete Profile</h2>
+            </div>
+            <div class="card-body">
+                <p class="text-center">Are you sure you want to delete your profile? This action cannot be undone.</p>
+                <form asp-action="DeleteConfirmed" method="post">
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-danger">Yes, Delete</button>
+                        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
